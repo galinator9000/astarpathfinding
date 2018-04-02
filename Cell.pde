@@ -33,7 +33,7 @@ class Cell{
     	stroke(255);
 
 		if(this.obstacle){
-			fill(0);			// Block
+			fill(120, 255);		// Block
 		}else if(this.start){
 			fill(0, 0, 255);	// Start.
 		}else if(this.end){
